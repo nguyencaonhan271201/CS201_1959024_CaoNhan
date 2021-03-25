@@ -1,0 +1,301 @@
+h1, h2, h3, nav li {
+  font-family: 'Kiwi Maru', serif;
+}
+
+p {
+  font-family: 'Montserrat', sans-serif;
+}
+
+body { 
+  animation: fadeInAnimation ease 1s;
+  animation-iteration-count: 1; 
+  animation-fill-mode: forwards; 
+} 
+
+html {
+  scroll-behavior: smooth;
+}
+
+@keyframes fadeInAnimation { 
+  0% { 
+      opacity: 0; 
+  } 
+  100% { 
+      opacity: 1; 
+   } 
+} 
+
+.top-bar {
+  background: #f6f6f6;
+}
+
+.top-bar .container {
+  position: relative !important;
+}
+
+.top-bar select.ml-1.form-control {
+  background: transparent;
+  border: none;
+  width: auto;
+}
+
+.top-bar .icons {
+  position: absolute;
+  bottom: -10px;
+  right: 10px;
+}
+
+.top-bar i {
+  color: white;
+  background: #03badc;
+  padding: 10px;
+  border-radius: 50%;
+  box-shadow: 1px 1px 3px grey;
+  margin-left: 5px;
+  cursor: pointer;
+}
+
+.product-div i, .manufacture-div i {
+  color: white;
+}
+
+.navbar {
+  margin-top: 38px !important;
+}
+
+.navbar i {
+  color: #03badc;
+  font-size: 3rem;
+}
+
+.navbar a.nav-link {
+  color: #03badc !important;
+}
+
+#banner-carousel {
+  height: 60vh;
+}
+
+.carousel-inner {
+  height: 60vh;
+}
+
+.carousel-item {
+  position: relative;
+  height:100%;
+}
+
+.carousel-item img {
+  position: absolute;   
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.carousel-control-next-icon, .carousel-control-prev-icon {
+  padding: 10px;
+  border-radius: 50%;
+  color: #03badc;
+}
+
+.jumbotron {
+  background: #f6f6f6;
+}
+
+.jumbotron .row {
+  margin: 0 auto;
+}
+
+.jumbotron .row .col-md-4 .content {
+  border-radius: 5px;
+  padding: 30px;
+  height: 100%;
+  box-shadow: 0.5px 0.5px 10px lightgrey;
+}
+
+.jumbotron .row .col-md-4 {
+  padding: 10px;
+}
+
+.pink-bg {
+  background: #e91d62 !important;
+  color: white;
+}
+
+.blue-bg {
+  background: #03badc !important;
+  color: white;
+}
+
+.bg-men {
+  background-image: url('images/men.jpg') !important;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.bg-ladies {
+  background-image: url('images/lady.jpg') !important;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.text h4 {
+  color: #03badc;
+}
+
+.text p {
+  font-size: 2rem;  
+}
+
+.small-text {
+  font-size: 1rem !important;
+}
+
+.post-div img, .product img, .manufacture-div img {
+  max-width: 100%;
+  height: auto;
+}
+
+.jumbotron .row .col-lg-3 .product-item {
+  border-radius: 5px;
+  padding: 20px;
+  height: 100%;
+  background: white;
+  box-shadow: 0.5px 0.5px 10px lightgrey;
+}
+
+.text-blue {
+  color: #03badc;
+}
+
+.text-pink {
+  color: #e91d62;
+}
+
+.product-item p {
+  margin-bottom: 5px;
+}
+
+.service-content {
+  padding: 40px !important;
+}
+
+.service-content i {
+  font-size: 3rem;
+}
+
+.service-content p {
+  font-size: .75rem;
+  text-align: center;
+}
+
+.post-div .col-md-3 p {
+  font-size: 0.8rem;
+  color: grey;
+}
+
+.post-div .time {
+  position: absolute;
+  top: -5px;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+  padding: 6px;
+  border-radius: 3px;
+  background: #3e50b4;
+  color: white !important;
+}
+
+.manufacture-div .row .col-md-2 {
+  background: transparent;
+  padding: 10px;
+}
+
+.manufacture-div .row .col-md-2 .content {
+  background: white;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 1px 1px 3px grey;
+  height: 100%;
+}
+
+footer .container {
+  margin: 0 auto;
+}
+
+footer h4 {
+  color: #03badc;
+  font-size: 1.1rem
+}
+
+footer p {
+  color: grey;
+  font-size: 0.8rem;
+}
+
+footer i {
+  font-size: 1.25rem;
+}
+
+footer ul li a {
+  color: grey;
+  font-size: 0.8rem;
+  text-decoration: none;
+}
+
+footer ul li a:hover {
+  color: black;
+  text-decoration: none;
+}
+
+footer ul li {
+  list-style: none;
+  margin-bottom: 6px;
+}
+
+footer ul {
+  padding-left: 0px;
+}
+
+.btn-info {
+  background: #03badc !important;
+  border: 1px solid #03badc !important;
+}
+
+.nav-link:hover {
+  color: #1bd4f6 !important;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-size: 100%, 100%;
+  height: 40px;
+  width: 40px;
+  background: #03badc;
+  border-radius: 50%;
+  border: none;
+  background-image: none;
+  box-shadow: 1px 1px 3px grey;
+  cursor: pointer;
+}
+
+.carousel i {
+  color: white;
+}
+
+.product-div span.i-left, .manufacture-div span.i-left  {
+  position: absolute;
+  top: 50%;
+  left: 10px;
+}
+
+.product-div span.i-right, .manufacture-div span.i-right  {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+}
+
+.jumbotron {
+  box-shadow: 1px 1px 10px inset grey;
+}
