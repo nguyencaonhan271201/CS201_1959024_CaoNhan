@@ -39,6 +39,9 @@ function fetchProducts() {
             let result = JSON.parse(this.responseText);
             products = result;
             showProducts(0);
+        } else {
+            products = staticCatalog;
+            showProducts(0);
         }
     }
     xhr.send();
